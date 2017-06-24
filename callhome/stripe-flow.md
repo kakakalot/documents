@@ -3,7 +3,7 @@
 - public key -> app save
 - secret key -> server save
 - app call server api
-- encrypt algorithm: **encrypt(json data + SHA1_keystore)**
+- encrypt algorithm: **encrypt(json data)**
 
 ## API:
 
@@ -32,6 +32,6 @@
     - after checking token success, server call charge function, `https://stripe.com/docs/api/node#create_charge`
     - request:
     ```js
-    { token: "xyx", productId: "abc" }
+    { token: "xyx", product_id: "abc" }
     ```
 
