@@ -48,6 +48,7 @@ tbl_stripe_user:
 ```yml
 tbl_stripe_card:
     id
+    stripe_user_id
     stripe_card_id
     is_default
     brand
